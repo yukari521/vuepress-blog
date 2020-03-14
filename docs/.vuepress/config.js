@@ -1,16 +1,16 @@
 module.exports = {
-    title: 'Zhu Zhaohua',
+    title: 'Ivan Blog',
 
     serviceWorker: true,
     head: [
-        ['link', { rel: 'icon', href: '/img/logo.jpeg' }]
+        ['link', { rel: 'icon', href: '/img/logo.jpg' }]
     ],
     markdown: {
       // 显示代码行号
       lineNumbers: false
     },
     themeConfig: {
-        logo:"/img/logo.jpeg",
+        logo:"/img/logo.jpg",
         nav: [
           { text: '首页', link: '/timeLine/' },
           { text: '技术', link:'/technology/'},
@@ -21,9 +21,9 @@ module.exports = {
           { text: '留言板', link:'/massage/'},
           { text: '链接',
             items: [
-                {text:'简书',link: 'https://www.jianshu.com/u/cbc58f855e75' },
-                {text:'GitHub',link: 'https://github.com/zhuzhaohua' },
-                {text:'码云',link: 'https://gitee.com/kobuta' },
+                {text:'博客',link: 'https://yukari521.github.io/' },
+                {text:'GitHub',link: 'https://github.com/yukari521' },
+                {text:'码云',link: 'https://gitee.com/yifan521' },
             ]
           }
         ],

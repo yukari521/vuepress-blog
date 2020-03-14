@@ -16,8 +16,8 @@ export default {
      
     new Valine({
       el: '#vcomments' ,
-      appId: '',// your appId
-      appKey: '', // your appKey
+      appId: 'uxUtX5A8DNdewKykNQtoJN0A-gzGzoHsz',// your appId
+      appKey: 'TymI8qQrFv8Boz4F5HxOskLE', // your appKey
       notify:true, 
       verify:false, 
       avatar:'mm', 
